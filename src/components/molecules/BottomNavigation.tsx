@@ -33,7 +33,7 @@ const Icon = ({ label, isFocused }) => {
       ) : (
         <ChatBubbleOvalLeftEllipsisIcon color={Colors.BLACK} />
       );
-    case 'Dashboard':
+    case 'Me':
       return isFocused ? <UserIcon color={Colors.PRIMARY} /> : <UserIcon color={Colors.BLACK} />;
     default:
       return <HomeIcon color={Colors.PRIMARY} />;
