@@ -93,7 +93,7 @@ const Authentication: FunctionComponent<NavigationProps> = ({ navigation }) => {
               </RegularText>
               <PrimaryInput
                 placeholder="Phone or Email"
-                keyboardType="numeric"
+                keyboardType="default"
                 value={phoneNumber}
                 onChange={(event) => setPhoneNumber(event.nativeEvent.text)}
                 // onChange={(event) => setPhoneNumber(event.nativeEvent.text.replace(/[^0-9]/g, ''))}
