@@ -14,7 +14,7 @@ export default function MainApp() {
       <Tab.Screen name="Tools" component={Tools} options={{ headerShown: false }} />
       <Tab.Screen name="Data" component={Data} options={{ headerShown: false }} />
       <Tab.Screen name="Message" component={Message} options={{ headerShown: false }} />
-      <Tab.Screen name="Dashboard" component={Dashboard} options={{ headerShown: false }} />
+      <Tab.Screen name="Me" component={Dashboard} options={{ headerShown: false }} />
     </Tab.Navigator>
   );
 }
